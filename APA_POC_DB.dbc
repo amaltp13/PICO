@@ -1,0 +1,159 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 1358 Ultrasonic_Vehicle_details: 6 Vector__XXX
+ SG_ Ultrasonic_Vehicle_Yaw : 39|10@0+ (0.01,0) [0|10.23] "degree/s" Vector__XXX
+ SG_ Ultrasonic_Vehicle_Lat_Accl : 23|10@0+ (0.01,0) [0|10.23] "" Vector__XXX
+ SG_ Ultrasonic_Vehicle_Longi_Accl : 7|10@0+ (0.01,0) [0|10.23] "" Vector__XXX
+
+BO_ 1455 Camera_parking: 7 Vector__XXX
+ SG_ Camera_slot_detection_status : 55|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Camera_slot_type : 54|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Camera_slot_detection_direction : 52|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Camera_Parking_slot_theta : 39|16@0+ (1,0) [0|65535] "mm" Vector__XXX
+ SG_ Camera_Parking_slot_Y : 23|16@0+ (1,0) [0|65535] "mm" Vector__XXX
+ SG_ Camera_Parking_slot_X : 7|16@0+ (1,0) [0|65535] "mm" Vector__XXX
+
+BO_ 1439 Camera_object_count: 8 Vector__XXX
+ SG_ Object_count_others_right : 60|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Object_count_pedestrian_right : 63|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Object_count_bike_right : 52|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Object_count_car_right : 55|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Camera_right_status : 8|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Object_count_other_left : 44|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Object_count_pedestrian_left : 47|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Object_count_bike_left : 36|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Object_count_car_left : 39|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Camera_left_status : 9|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Object_count_other_back : 28|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Object_count_pedestrian_back : 31|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Object_count_bike_back : 20|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Object_count_car_back : 23|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Camera_back_status : 0|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Object_count_other_front : 12|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Object_count_pedestrian_front : 15|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Camera_front_status : 1|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Object_count_bike_front : 4|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Object_count_car_front : 7|3@0+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 1423 Controller_display: 2 Vector__XXX
+ SG_ Index_of_car : 15|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Type_of_parking : 1|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Index_of_spline : 4|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Index_of_box : 7|3@0+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 1407 Display_general: 1 Vector__XXX
+ SG_ Parking_start_stop : 1|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Detection_direction : 3|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Detection_start_stop : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Display_status : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 1391 Vehicle_details_4: 6 Vector__XXX
+ SG_ Vehicle_Yaw : 39|10@0+ (0.01,0) [0|10.23] "degree/s" Vector__XXX
+ SG_ Vehicle_Lat_Accl : 23|10@0+ (0.01,0) [0|10.23] "" Vector__XXX
+ SG_ Vehicle_Longi_Accl : 7|10@0+ (0.01,0) [0|10.23] "" Vector__XXX
+
+BO_ 1375 Vehicle_details_3: 8 Vector__XXX
+ SG_ Vehicle_WSS_RR : 55|12@0+ (0.1,0) [0|409.5] "mps" Vector__XXX
+ SG_ Vehicle_WSS_RL : 39|12@0+ (0.1,0) [0|409.5] "mps" Vector__XXX
+ SG_ Vehicle_WSS_FR : 23|12@0+ (0.1,0) [0|409.5] "mps" Vector__XXX
+ SG_ Vehicle_WSS_FL : 7|12@0+ (0.1,0) [0|409.5] "mps" Vector__XXX
+
+BO_ 1359 Vehicle_details_2: 6 Vector__XXX
+ SG_ Vehicle_Theta : 39|16@0+ (1,0) [0|65535] "degree" Vector__XXX
+ SG_ Vehicle_Y : 23|16@0+ (1,0) [0|65535] "cm" Vector__XXX
+ SG_ Vehicle_X : 7|16@0+ (1,0) [0|65535] "cm" Vector__XXX
+
+BO_ 1343 Vehicle_details_1: 4 Vector__XXX
+ SG_ Vehicle_Speed : 23|16@0+ (0.01,0) [0|655.35] "mps" Vector__XXX
+ SG_ Vehicle_Engine_RPM : 7|16@0+ (1,0) [0|65535] "" Vector__XXX
+
+BO_ 1327 Gear_response_parking: 1 Vector__XXX
+ SG_ Gear_acknowledgement : 4|1@0+ (1,0) [0|1] "" Vector__XXX
+ SG_ Gear_status : 7|3@0+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 1311 Gear_rqst_parking: 1 Vector__XXX
+ SG_ Gear_rqst : 5|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Gear_rqst_start_flag : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 1631 Ultrasonic_parking: 7 Vector__XXX
+ SG_ Parking_slot_detection_status : 55|3@0+ (1,0) [0|7] "" Vector__XXX
+ SG_ Ultrasonic_Parking_slot_theta : 39|16@0+ (1,0) [0|65535] "mm" Vector__XXX
+ SG_ Ultrasonic_Parking_slot_Y : 23|16@0+ (1,0) [0|65535] "mm" Vector__XXX
+ SG_ Ultrasonic_Parking_slot_X : 7|16@0+ (1,0) [0|65535] "mm" Vector__XXX
+
+BO_ 1615 Ultrasonic_general: 4 Vector__XXX
+ SG_ Ultrasonic_ready_flag : 31|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Right_rear_status : 17|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Right_front_status : 19|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Left_back_status : 21|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Left_front_status : 23|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Rear_right_status : 9|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Rear_left_status : 11|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Rear_center_right_status : 13|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Rear_center_left_status : 15|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Front_right_status : 1|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Front_left_status : 3|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Front_center_right_status : 5|2@0+ (1,0) [0|3] "" Vector__XXX
+ SG_ Front_center_left_status : 7|2@0+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 1599 Side_Ultrasonic: 8 Vector__XXX
+ SG_ Right_rear : 55|16@0+ (1,0) [0|1000] "mm" Vector__XXX
+ SG_ Right_front : 39|16@0+ (1,0) [0|1000] "mm" Vector__XXX
+ SG_ Left_back : 23|16@0+ (1,0) [0|1000] "mm" Vector__XXX
+ SG_ Left_front : 7|16@0+ (1,0) [0|1000] "mm" Vector__XXX
+
+BO_ 1583 Rear_Ultrasonic: 8 Vector__XXX
+ SG_ Rear_center_right : 55|16@0+ (1,0) [0|1000] "mm" Vector__XXX
+ SG_ Rear_right : 39|16@0+ (1,0) [0|1000] "mm" Vector__XXX
+ SG_ Rear_center_left : 23|16@0+ (1,0) [0|1000] "mm" Vector__XXX
+ SG_ Rear_left : 7|16@0+ (1,0) [0|1000] "mm" Vector__XXX
+
+BO_ 1567 Front_Ultrasonic: 8 Vector__XXX
+ SG_ Front_center_right : 55|16@0+ (1,0) [0|1000] "mm" Vector__XXX
+ SG_ Front_right : 39|16@0+ (1,0) [0|1000] "mm" Vector__XXX
+ SG_ Front_center_left : 23|16@0+ (1,0) [0|1000] "mm" Vector__XXX
+ SG_ Front_left : 7|16@0+ (1,0) [0|1000] "mm" Vector__XXX
+
+
+
+BA_DEF_  "MultiplexExtEnabled" ENUM  "No","Yes";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "MultiplexExtEnabled" "No";
+BA_DEF_DEF_  "BusType" "CAN";
+
