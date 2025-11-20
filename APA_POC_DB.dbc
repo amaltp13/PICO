@@ -84,9 +84,9 @@ BO_ 1407 Display_general: 1 Vector__XXX
  SG_ Display_status : 7|2@0+ (1,0) [0|3] "" Vector__XXX
 
 BO_ 1391 Vehicle_details_4: 6 Vector__XXX
- SG_ Vehicle_Yaw : 39|10@0+ (0.01,0) [0|10.23] "degree/s" Vector__XXX
- SG_ Vehicle_Lat_Accl : 23|10@0+ (0.01,0) [0|10.23] "" Vector__XXX
- SG_ Vehicle_Longi_Accl : 7|10@0+ (0.01,0) [0|10.23] "" Vector__XXX
+ SG_ Vehicle_Yaw : 39|10@0- (0.01,0) [-5.12|5.11] "degree/s" Vector__XXX
+ SG_ Vehicle_Lat_Accl : 23|10@0- (0.01,0) [-5.12|5.11] "" Vector__XXX
+ SG_ Vehicle_Longi_Accl : 7|10@0- (0.01,0) [-5.12|5.11] "" Vector__XXX
 
 BO_ 1375 Vehicle_details_3: 8 Vector__XXX
  SG_ Vehicle_WSS_RR : 55|12@0+ (0.1,0) [0|409.5] "mps" Vector__XXX
@@ -95,9 +95,9 @@ BO_ 1375 Vehicle_details_3: 8 Vector__XXX
  SG_ Vehicle_WSS_FL : 7|12@0+ (0.1,0) [0|409.5] "mps" Vector__XXX
 
 BO_ 1359 Vehicle_details_2: 6 Vector__XXX
- SG_ Vehicle_Theta : 39|16@0+ (1,0) [0|65535] "degree" Vector__XXX
- SG_ Vehicle_Y : 23|16@0+ (1,0) [0|65535] "cm" Vector__XXX
- SG_ Vehicle_X : 7|16@0+ (1,0) [0|65535] "cm" Vector__XXX
+ SG_ Vehicle_Theta : 39|16@0- (1,0) [-32768|32767] "degree" Vector__XXX
+ SG_ Vehicle_Y : 23|16@0- (1,0) [-32768|32767] "cm" Vector__XXX
+ SG_ Vehicle_X : 7|16@0- (1,0) [-32768|32767] "cm" Vector__XXX
 
 BO_ 1343 Vehicle_details_1: 4 Vector__XXX
  SG_ Vehicle_Speed : 23|16@0+ (0.01,0) [0|655.35] "mps" Vector__XXX
